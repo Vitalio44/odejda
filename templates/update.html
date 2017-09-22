@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="jumbotron">
+      <div class="container">
+          <h1 class="display-3">Обновить товары</h1>
+          <p>Обновление может занять некоторое время и будет происходить в фонов режиме.</p>
+          <p><a class="btn btn-primary btn-lg" href="{% url 'get_update' %}" role="button">Обновить &raquo;</a></p>
+      </div>
+    </div>
+{% endblock content %}
